@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    h1 {
+    color: pink;
+    }
+    h2{
+        color: aqua;
+    }
+    ul {
+        color: darkcyan;
+    }
+    ol {
+        color: hotpink;
+        background-color: lemonchiffon;
+        border-color: deeppink;
+        c
+    }
+}
