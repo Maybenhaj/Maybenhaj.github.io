@@ -8,5 +8,9 @@ body {
     h1 {
     color: darkgoldenrod;
     }
+    .my-icon {
+        font-size: 48px; /* Or use rem, em, % */
+      }
+      
   
 }
