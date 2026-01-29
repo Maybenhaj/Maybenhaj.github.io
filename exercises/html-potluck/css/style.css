@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 200px;
+    font-family: serif;
+    h1 {
+    color: chocolate;
+    text-align: center;
+    }
+  
+}
