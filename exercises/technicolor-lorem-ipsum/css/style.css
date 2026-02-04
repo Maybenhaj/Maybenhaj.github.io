@@ -7,41 +7,40 @@ body {
     width: 500px;
     font-size: 26px;
     font-family: serif;
-    h1 {
+}
+h1 {
     color: darkgoldenrod;
-    }
-    #p1 {
-        background-color: aquamarine;
-        color: darkgreen;
-    }
-    #ps1 {
-        background-color:gold;
-        color: coral;
-    }
-    #ps2 {
-        background-color: honeydew;
-        color: rgb(198, 176, 9);
-    }
-    #p2 {
-        background-color: cyan;
-    }
-    #p2s1 {
-        background-color: coral;
-        color: beige;
-    }
-    #p2s2 {
-        background-color: deeppink;
-        color: azure;
-    }
-    #p3 {
-        background-color: lightcoral;
-    }
-    #p3s1 {
-        background-color: brown;
-        color: azure;
-    }
-    #p3s2 {
-        background-color:firebrick;
-    }
-  
+}
+#p1 {
+    background-color: aquamarine;
+    color: darkgreen;
+}
+#ps1 {
+    background-color: gold;
+    color: coral;
+}
+#ps2 {
+    background-color: honeydew;
+    color: rgb(198, 176, 9);
+}
+#p2 {
+    background-color: cyan;
+}
+#p2s1 {
+    background-color: coral;
+    color: beige;
+}
+#p2s2 {
+    background-color: deeppink;
+    color: azure;
+}
+#p3 {
+    background-color: lightcoral;
+}
+#p3s1 {
+    background-color: brown;
+    color: azure;
+}
+#p3s2 {
+    background-color: firebrick;
 }

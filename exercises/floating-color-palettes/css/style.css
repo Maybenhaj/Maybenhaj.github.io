@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 700px;
+    font-family: serif;
+    background-color: #fff4e4;
+}
+.color-palette {
+    box-shadow: 6px 6px 12px #989898;
+    text-align: center;
+    margin: 24px; 
+    padding: 24px; 
+    background-color: white;
+}
+.color {
+    margin: 0px;
+    padding: 24px;
+}
+ 
+#color1 {
+    background-color: #ffe4e1;
+
+}
+#color2 {
+    background-color: #ffc7c7;
+
+}
+#color3 {
+    background-color: #ffb3b3;
+
+}
+#color4 {
+    background-color: #0b5d85;
+}
+#color5 {
+    background-color: #b8b7c5;
+}
+#color6 {
+    background-color: #f0dde0;
+}
+#color7 {
+    background-color: #ffe9cc;
+}
+#color8 {
+    background-color: #f7d5ba;
+}
+#color9 {
+    background-color: #e1bb9d;
+}
+h2 {
+    text-align: center;  
+}
+h4 {
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 500px;
+    font-family: serif;
+    h1 {
+    color: darkgoldenrod;
+    }
+  #p1 {
+    color: green;
+  }
+  .shadowed {
+    background-color: lightgray;
+    margin: 24px;
+    padding: 24px;
+    box-shadow:4px 4px 50px cadetblue;
+  }
+  p {
+    font-family: "Bungee", sans-serif;
+  }
+  
+}
