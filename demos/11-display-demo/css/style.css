@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+h1 {
+    color: darkgoldenrod;
+}
+div {
+    display: inline-block;
+    width: 200px;
+    background-color: darkgray;
+    padding: 10px;
+    margin: 15px;
+}
+#mediatext {
+    background-color: beige;
+    display: inline-block;
+    width: auto;
+}
+#media {
+    width: 200px;
+    vertical-align: middle;
+}
+#text {
+    width: 200px;
+    background-color: aqua;
+    display: inline-block;
+    margin: 20px;
+    vertical-align:middle;
+}
+#text1 {
+    width: 200px;
+    background-color: rgb(226, 175, 136);
+    display: inline-block;
+    margin: 20px;
+    vertical-align:middle;
+}
