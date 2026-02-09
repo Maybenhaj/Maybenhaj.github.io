@@ -55,7 +55,7 @@
     display: inline-block;
 }
 .pic {
-    align-items: center;
+    text-align: center;
 }
 .pink {
     background-color: lightpink;
