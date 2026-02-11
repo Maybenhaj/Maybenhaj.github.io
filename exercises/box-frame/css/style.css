@@ -20,7 +20,7 @@ body {
 }
 .round {
     border-radius: 50%;
-    border: 15px solid brown;
+    border: 20px solid brown;
     background-color: rgb(250, 243, 232);
     padding: 10px;
     margin: 50px;
