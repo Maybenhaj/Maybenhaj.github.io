@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-family: sans-serif;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.simple {
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 20px;
+    background-color:mediumblue;
+    color: white;
+}
+.background {
+    background-color:crimson;
+    padding: 20px 36px;
+    color: 24px;
+    border-radius: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 24px;
+    color: white;
+}
+.border {
+    color: crimson;
+    border: 3px solid crimson;
+    padding: 24px 36px;
+    border-radius: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 24px;
+}
+.same {
+    min-width: 300px;
+    text-align: center;
+}
+#section-3 {
+    width: 300px;
+}
+.wide {
+    display: block;
+    text-align: center;
+}
+#section-2 .background {
+    background-color: teal;
+}
+#section-2 .border {
+    color: teal;
+    border-color: teal;
+}

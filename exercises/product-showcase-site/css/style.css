@@ -6,3 +6,27 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+.product {
+    padding: 100px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.sofa {
+    width: 400px;
+    
+}
+p {
+    color: white;
+}
+.green {
+    background-color: greenyellow;
+}
+.gray {
+    background-color: darkgray;
+}
+.blue {
+    background-color: darkslateblue;
+}
+.brown {
+    background-color:sienna;
+}
