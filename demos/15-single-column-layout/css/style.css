@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 500px;
+    font-family: serif;
+}
+.single-column {
+    background-color: aquamarine;
+}

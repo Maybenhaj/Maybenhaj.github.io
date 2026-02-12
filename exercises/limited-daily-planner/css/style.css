@@ -8,19 +8,19 @@ body {
     width: 800px;
 }
 #morning {
-    background-color: rgb(244, 219, 165);
+    background-color: rgb(239, 159, 54);
     padding: 10px 20px;
     border-radius: 20px;
     margin: 10px;
 }
 #afternoon {
-    background-color: rgb(241, 136, 106);
+    background-color: rgb(244, 148, 135);
     padding: 10px 20px;
     border-radius: 20px;
     margin: 10px;
 }
 #evening {
-    background-color: rgb(233, 175, 235);
+    background-color: rgb(81, 215, 238);
     padding: 10px 20px;
     border-radius: 20px;
     margin: 10px;
@@ -39,10 +39,20 @@ body {
     width: 100px;
     text-align: center;
 }
-.completed {
+#morning .completed {
     text-decoration-line: line-through;
 }
-.important  {
+#afternoon .completed {
+    text-decoration-line: line-through;
+}
+#evening .completed {
+    text-decoration-line: line-through;
+}
+#afternoon .important  {
+    color: rgb(224, 25, 25);
+    font-weight: bold;
+}
+#evening .important  {
     color: rgb(224, 25, 25);
     font-weight: bold;
 }
