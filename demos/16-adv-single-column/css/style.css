@@ -6,3 +6,15 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+.single-column {
+    margin: auto;
+    width: 700px;
+    padding: 50px;
+}
+.light-container {
+    background-color: beige;
+}
+.dark-container {
+    background-color: rgb(1, 1, 85);
+    color: white;
+}

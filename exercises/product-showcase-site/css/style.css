@@ -6,27 +6,155 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-.product {
-    padding: 100px;
-    background-color: cornflowerblue;
+.single-column {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding: 25px;
     text-align: center;
 }
 .sofa {
-    width: 400px;
-    
+    width: 500px;
+    margin: 0px 50px;
 }
 p {
     color: white;
 }
+#g p {
+    color: green;
+    font-weight: bold;
+}
+#b p {
+    font-weight: bold;
+}
+#brw p {
+    color: gray;
+    font-weight: bold;
+}
+#b p {
+    color: blue;
+    font-weight: bold;
+}
+#gy p {
+    color: black;
+    font-weight: bold;
+}
 .green {
-    background-color: greenyellow;
+    background-color: rgb(120, 174, 124);
 }
 .gray {
-    background-color: darkgray;
+    background-color: rgb(192, 190, 190);
 }
 .blue {
-    background-color: darkslateblue;
+    background-color: rgb(114, 170, 243);
 }
 .brown {
-    background-color:sienna;
+    background-color: rgb(207, 147, 120);
+}
+.darkblue {
+    background-color: rgb(39, 66, 129);
+}
+.background {
+    background-color: rgb(102, 169, 236);
+}
+.color {
+    width: 80px;
+    height: 300px;
+    margin: 50px;
+}
+.bl {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(9, 113, 233);
+    display: block;
+}
+.grn {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(158, 229, 132);
+    display: block;
+}
+.br {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(103, 66, 53);
+    display: block;
+}
+.gr {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(143, 144, 146);
+    display: block;
+}
+.db {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(5, 48, 112);
+    display: block;
+}
+
+.sidebyside {
+    display: flex;
+
+}
+h1 {
+    color: white;
+    box-shadow: 5px 2px  5px;
+}
+.button {
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 6px 50px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+#g .button {
+    background-color: green;
+    color: rgb(158, 229, 132); 
+}
+#db .button {
+    background-color: rgb(4, 4, 62);
+}
+#brw .button {
+    background-color: dimgrey;
+    color: rgb(207, 147, 120);
+}
+#b .button {
+    background-color: lightblue;
+    color:  rgb(114, 170, 243);
+}
+#gy .button {
+    background-color: black;
+    color: rgb(143, 144, 146);
+}
+#g h2 {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    color: green;
+}
+#db h2 {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    color: rgb(206, 215, 235);
+}
+#brw h2 {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    color: rgb(53, 52, 52);
+}
+#b h2 {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    color: blue;
+}
+#gy h2 {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
 }
