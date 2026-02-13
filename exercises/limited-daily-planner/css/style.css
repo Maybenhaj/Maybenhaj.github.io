@@ -25,7 +25,35 @@ body {
     border-radius: 20px;
     margin: 10px;
 }
-.button {
+#morning .button {
+    border: 2px solid black;
+    padding: 5px 20px;
+    background-color: rgb(155, 212, 155);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 4px 15px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+}
+#afternoon .button {
+    border: 2px solid black;
+    padding: 5px 20px;
+    background-color: rgb(155, 212, 155);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 4px 15px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+}
+#evening .button {
     border: 2px solid black;
     padding: 5px 20px;
     background-color: rgb(155, 212, 155);
