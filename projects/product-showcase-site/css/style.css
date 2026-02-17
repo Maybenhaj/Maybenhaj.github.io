@@ -107,17 +107,20 @@ h1 {
     box-shadow: 5px 2px  5px;
 }
 .button {
-    border: 1px solid white;
     text-decoration: none;
-    padding: 6px 50px;
+    padding: 10px 50px;
     border-radius: 10px;
     background-color: darkblue;
     color: white;
     font-weight: bold;
+    display: inline-block;
+    margin-bottom: 23px;
+    margin-top: 10px;
 }
 #g .button {
     background-color: green;
     color: rgb(158, 229, 132); 
+    
 }
 #db .button {
     background-color: rgb(4, 4, 62);
