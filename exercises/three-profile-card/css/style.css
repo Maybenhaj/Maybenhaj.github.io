@@ -45,10 +45,10 @@ body {
 }
 
 img {
-    width: 260px;
+    width: 250px;
     display: block;
     text-align: center;
-
+    margin: 20px 10px;
 }
 .card .par {
     margin-bottom: 10px;
