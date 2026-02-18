@@ -47,6 +47,7 @@ body {
 img {
     width: 260px;
     display: block;
+    text-align: center;
 
 }
 .card .par {
