@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#single-column {
+    width: 90vw;
+    margin: 10px auto;
+    max-width: 1200px;
+
+}
+.side-by-side {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    border-top: 2px solid rgb(146, 144, 144);
+    border-bottom: 2px solid rgb(146, 144, 144);
+    margin-bottom: 50px;
+}
+.side-by-side .img-container, .side-by-side .text-container {
+    flex: 1;
+}
+.side-by-side .img-container img {
+    width: 100%;
+    margin: 20px;
+}
+.detail-container {
+    display: flex;
+    gap: 20px;
+}
+.detail-container p {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.maincourse {
+    letter-spacing: 2px;
+}
+.text-container p {
+    padding-bottom: 10px;
+}
+.side-by-side h2 {
+    font-size: 34px;
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.card-container {
+    display: flex;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+}
+.part2 {
+    text-align: center;
+}
+.part2 h1 {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.card {
+
+    padding: 5px 20px;
+    text-align: center;
+    width: 300px;
+    display: block;
+
+}
+.side-by-side .text-container {
+    margin: 20px;
+}
+.side-by-side a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 580px) {
+    .side-by-side h2 {
+        font-size: 24px;
+    }
+    .side-by-side {
+        flex-direction: column;
+    }
+}
