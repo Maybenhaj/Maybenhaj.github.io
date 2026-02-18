@@ -29,10 +29,7 @@ body {
     margin: 0px;
     font-size: 36px;
 }
-.card p {
-    font-size: 16px;
-    margin: 24px 0;
-}
+
 .button {
     text-decoration: none;
     margin: 25px;
@@ -50,11 +47,12 @@ body {
     margin-bottom: 20px;
 }
 img {
-    width: 200px;
-    margin: 20px;
+    width: 250px;
+    margin: 10px;
 }
 .card .par {
     margin-bottom: 20px;
+    margin-top: 10px;
     height: 120px;
     width: auto;
     font-size: 12px;
