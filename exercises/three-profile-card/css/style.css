@@ -52,6 +52,8 @@ img {
     width: 200px;
     margin: 20px;
 }
-.card .para {
+.card .par {
     margin: 20px;
+    height: 120px;
+    width: auto;
 }
