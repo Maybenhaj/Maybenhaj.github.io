@@ -16,7 +16,7 @@ body {
     display: flex;
 }
 .card {
-    border: 5px solid rgb(136, 26, 107);
+    border: 5px solid rgb(118, 3, 85);
     margin: 36px 10px;
     padding: 5px 20px;
     text-align: center;
@@ -24,7 +24,7 @@ body {
     display: block;
     border-radius: 25px;
     box-shadow: 2px 4px 10px;
-    background-color: rgb(248, 188, 218);
+    background-color: rgb(215, 143, 179);
 }
 .card h3 {
     margin: 20px;
@@ -34,7 +34,7 @@ body {
 .button {
     text-decoration: none;
     padding: 15px 10px;
-    background-color: rgb(118, 18, 137);
+    background-color: rgb(135, 9, 97);
     color: white;
     font-weight: bold;
     display: block;
@@ -54,7 +54,7 @@ img {
 .card .par {
     margin-bottom: 10px;
     margin-top: 10px;
-    height: 150px;
+    height: 120px;
     width: auto;
     font-size: 14px;
 }
