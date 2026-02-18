@@ -16,10 +16,14 @@ body {
     gap: 36px;
 }
 .card {
-    border: 5px solid cyan;
+    border: 5px solid rgb(178, 163, 68);
     margin: 36px 10px;
     padding: 5px 20px;
     text-align: center;
+    background-color: red;
+    border-radius: 25px;
+    width: 400px;
+    box-shadow: 5px 4px 20px red;
 }
 .card h3 {
     margin: 0px;
@@ -28,4 +32,15 @@ body {
 .card p {
     font-size: 16px;
     margin: 24px 0;
+    color: white;
+    font-weight: bold;
+}
+img {
+    width: 350px;
+    margin-bottom: 50px;
+}
+h3 {
+    color: white;
+    margin: 20px 20px;
+    padding: 30px;
 }
