@@ -14,10 +14,10 @@ body {
 .side-by-side {
     display: flex;
     align-items: center;
-    gap: 36px;
+    gap: 25px;
     border-top: 2px solid rgb(146, 144, 144);
     border-bottom: 2px solid rgb(146, 144, 144);
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .side-by-side .img-container, .side-by-side .text-container {
     flex: 1;
@@ -28,14 +28,16 @@ body {
 }
 .detail-container {
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 .detail-container p {
-    font-size: 13px;
+    font-size: 11px;
     letter-spacing: 1px;
 }
 .maincourse {
     letter-spacing: 2px;
+    font-size: 13px;
+    display: block;
 }
 .text-container p {
     padding-bottom: 10px;
@@ -43,6 +45,8 @@ body {
 .side-by-side h2 {
     font-size: 34px;
     font-family: "Bodoni Moda SC", serif;
+    padding-bottom: 2px;
+    
 }
 
 .card-container {
@@ -82,6 +86,7 @@ body {
 }
 .side-by-side .text-container {
     margin: 20px;
+    line-height: 1.2;
 }
 .side-by-side a {
     text-decoration: none;
