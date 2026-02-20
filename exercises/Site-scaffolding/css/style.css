@@ -5,10 +5,10 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    
+    background-color: rgb(110, 21, 4);
 }
 #navbar {
-    background: linear-gradient(to left, rgb(73, 225, 241), blue);
+    background-color: darksalmon;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -23,7 +23,7 @@ body {
     margin: 0 15px;
 }
 #navbar .cta-button {
-    background-color: blue;
+    background-color: rgb(214, 0, 0);
     border-radius: 25px;
     font-weight: bold;
     font-size: 20px;
@@ -33,25 +33,25 @@ body {
     margin-bottom: 5px;
 }
 #layout {
-    background-color: rgb(122, 215, 246);
+    background-color: rgb(253, 215, 184);
     width: 700px;
     margin: auto;
     font-size: 24px;
     min-height: 200vh;
     padding: 25px;
-    border-left: 5px solid blue;
+    border-left: 5px solid red;
 }
 #layout img {
     width: 100%;
 }
 h1 {
     text-align: center;
-    color: blue;
+    color: red;
     font-style: italic;
 }
 p {
-    color: blue;
+    color: red;
 }
 h2 {
-    color: white;
+    color: rgb(169, 0, 0);
 }
