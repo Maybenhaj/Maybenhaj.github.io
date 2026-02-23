@@ -37,7 +37,7 @@ body {
 }
 .maincourse {
     letter-spacing: 2px;
-    font-size: 12px;
+    font-size: 14px;
     display: block;
     margin: 0;
 }
@@ -49,7 +49,7 @@ body {
     font-size: 34px;
     font-family: "Bodoni Moda SC", serif;
     margin-top: 1px;
-    
+    margin-bottom: 12px;
 }
 
 .card-container {
