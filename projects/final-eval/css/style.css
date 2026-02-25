@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 800px;
+    font-family: serif;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.single-column {
+    width: 90vw;
+    margin: 20px auto;
+    max-width: 900px;
+    border: 10px solid rgb(155, 129, 64);
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(184, 207, 191, 0.873);
+}
+.border {
+    border: 5px dashed rgb(141, 4, 4);
+    padding: 20px;
+}
+#two-column {
+    display: flex;
+    align-items: center;
+    min-width: 500px;
+    gap: 45px;
+    margin-bottom: 100px;
+    color: white;
+}
+#title {
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin: 0;
+    color: rgb(141, 4, 4);
+}
+.extravaganza {
+    background-color: rgb(155, 129, 64);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    margin-top: 0;
+}
+.cart {
+    flex: 1;
+    border: 5px solid rgb(155, 129, 64);
+    display: block;
+    text-align: center;
+    background-color: rgba(252, 252, 252, 0.762);
+}
+.middlecart h1 {
+    font-size: 65px;
+    color: black;
+}
+.cart img {
+    width: 300px;
+    object-fit: contain;
+}
+.cart h2 {
+    color: rgb(141, 4, 4);
+    font-size: 24px;
+}
+h1 {
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 2px rgb(141, 4, 4);
+}
+h2 {
+    font-size: 22px;
+    color: rgb(141, 4, 4);
+}
+h3 {
+    font-size: 18px;
+}
+#date {
+    font-family: Georgia, 'Times New Roman', Times, seriferif;
+}
+#ctabutton {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+#ctabutton a {
+    padding: 15px 30px;
+    background-color: rgb(141, 4, 4);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px rgb(141, 4, 4);
+}
