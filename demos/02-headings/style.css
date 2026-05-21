@@ -3,6 +3,21 @@
 }
 
 body {
-    margin: 0px;
+    margin: auto;
+    text-align: center;
     font-family: sans-serif;
+    background-color: rgb(6, 6, 117);
 }
+h1 {
+    color: rgb(211, 225, 238);
+}
+h2 {
+    color: rgb(211, 231, 248);
+}
+p {
+    color: antiquewhite;
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+}
+
+
+
