@@ -2302,8 +2302,7 @@ text-decoration: none;
 text-transform: uppercase;
 white-space: nowrap;
 }
-    
-    .email-button:hover {
-      background-color: #f5ebb9;
-      color: white;
-    }
+.email-button:hover {
+  background-color: #f5ebb9;
+  color: white;
+}
