@@ -119,6 +119,25 @@ a {
     color: #d5a60b !important; }
     a:hover strong {
       color: inherit; }
+#gallery {
+    max-width: 900px;
+    margin: 48px auto;
+    text-align: center;
+    background-color: white;
+    
+}
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 24px;
+    gap: 20px;
+    box-shadow: inset 4px 4px 10px;
+    
+}
+.basic-grid-gallery img {
+    width: 100%;
+    filter: drop-shadow(5px 5px 10px gray);
+}
 
 strong, b {
   color: #3d4449;
